@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/main_backgrd.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -245,8 +245,13 @@ header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 22px;
+  color: #FED136;
   line-height: 22px;
   margin-bottom: 25px;
+}
+.jumbotron {
+   background: rgb(52, 53, 71); /* This is for ie8 and below */
+   background: rgba(52, 53, 71, 0.7);
 }
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
